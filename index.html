@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Joey Stinkens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" alt="logo" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Over</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>IT Innovator in Training</p>
+            <h1>Hey, ik ben <span>Joey Stinkens,</span><br> een ambitieuze starter in het IT-veld.</h1>
+        </div>
+    </div>
+</div>
+
+<!--about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Over mij</h1>
+                <p>text in te vullen</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('opleiding')">Opleiding</p>
+                    <p class="tab-links" onclick="opentab('passies')">Passies en Ambities</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Design Thinking</span><br>Problemen onderzoeken en innovatieve oplossingen verzinnen
+                        </li>
+                        <li><span>Design Thinking</span><br>Problemen onderzoeken en innovatieve oplossingen verzinnen
+                        </li>
+                        <li><span>Design Thinking</span><br>Problemen onderzoeken en innovatieve oplossingen verzinnen
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="opleiding">
+                    <ul>
+                        <li><span>HAVO: Examenjaar 2021</span><br>Vakkenpakket N&T met Informatica en Filosofie</li>
+                        <li><span>HBO-ICT: Examenjaar 2025</span><br>Haase Hogeschool Differentiatie: Innovatie
+                            Development
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="passies">
+                    <ul>
+                        <li><span>Samenlevingsgericht</span><br>Mijn doel voor mijn carriere is om de wereld beter
+                            achter te laten dan toen ik begon. Ik ga graag uit de weg om andere mensen te helpen.
+                        </li>
+                        <li><span>Oplossingen verzinnen</span><br>Er is geen probleem te ingewikkeld waar ik niet een
+                            oplossing voor kan verzinnen.
+                        </li>
+                        <li><span>Video Games</span><br>In mijn vrije tijd doe ik niets liever dan video games spelen.
+                            Daarnaast vind ik het maken van video games in Unity ook heel leuk.
+                        </li>
+                        <li><span>Festivallen</span><br>Voor mij is er geen betere manier dan ontspannen door met
+                            vrienden naar een muziek festival te gaan.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Portfolio-->
+<div id="portfolio" data-mouse-down-at="0" data-prev-percentage="0">
+    <img class="image-portfolio" src="images/portfolio.png" draggable="false"/>
+    <img class="image-portfolio" src="images/portfolio.png" draggable="false"/>
+    <img class="image-portfolio" src="images/portfolio.png" draggable="false"/>
+    <img class="image-portfolio" src="images/portfolio.png" draggable="false"/>
+    <img class="image-portfolio" src="images/portfolio.png" draggable="false"/>
+    <img class="image-portfolio" src="images/portfolio.png" draggable="false"/>
+    <img class="image-portfolio" src="images/portfolio.png" draggable="false"/>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
