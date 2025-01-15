@@ -20,7 +20,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(../images/background.png);
+    /*background-image: url(../images/background.png);*/
     background-size: cover;
     background-position: right;
 }
@@ -60,6 +60,13 @@ nav ul li a::after {
 
 nav ul li a:hover::after {
     width: 100%;
+}
+
+nav h1 {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 1.2rem;
 }
 
 .header-text {
@@ -307,19 +314,43 @@ nav ul li a:hover::after {
     }
 }
 
-#project-details .grey-box {
+#header.project-header{
+    background: none;
+    height: 10px;
+    padding: 0;
+}
+
+#project-details .grey-box{
     background-color: #333;
     color: #fff;
     padding: 20px;
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 800px;
     margin: 100px auto;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
-#header.project-header {
-    background: none;
-    height: auto; /* Adjust height since the background image is removed */
-    padding: 20px 0; /* Optional: Add some spacing for the logo */
+#project-details .grey-box p{
+    font-size: 18px;
+    margin-bottom: 20px;
 }
+
+#project-details .grey-box h1 {
+    font-size: 50px;
+    color: #ff6600;
+}
+#project-details .grey-box h2 {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#project-details .grey-box ul li{
+    margin-bottom: 20px;
+}
+
+#project-details .grey-box ul li a{
+    font-size: 25px;
+    color: #ece2d2;
+}
+
