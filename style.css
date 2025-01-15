@@ -306,3 +306,20 @@ nav ul li a:hover::after {
         line-height: 1.6rem;
     }
 }
+
+#project-details .grey-box {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#header.project-header {
+    background: none;
+    height: auto; /* Adjust height since the background image is removed */
+    padding: 20px 0; /* Optional: Add some spacing for the logo */
+}
